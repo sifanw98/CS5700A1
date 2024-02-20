@@ -15,7 +15,6 @@ public class Client {
             System.out.print("Enter an integer between 1 and 100: ");
             String number = stdIn.readLine();
             String message = "Client of Sifan Wei, " + number;
-
             out.println(message);
 
             String response = in.readLine();
